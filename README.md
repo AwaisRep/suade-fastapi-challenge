@@ -2,9 +2,11 @@
 
 ## Libraries Utilised
 
-Alongside the core requirement of FastAPI, this submission uses pandas in order to parse CSV files as dataframes.
+Alongside the core requirement of FastAPI, this submission uses pandas and pytest.
 
-I made this decision as it allowed me to consistently process large datasets efficiently, scanning for any mismatches against the schema, asynchronously.
+Using pandas allowed me to consistently process large datasets efficiently, scanning for any mismatches against the schema, asynchronously.  
+I chose pytest because it lets me write clear and concise tests with minimal setup, while reusable fixtures helped avoid repeating code. Its strong integration with FastAPI made it an easy choice for me.
+
 
 ## Endpoints
 1. /upload/  
